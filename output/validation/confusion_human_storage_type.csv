@@ -1,0 +1,7 @@
+human,aquifer,depleted_gas_reservoir,general_or_unclear,hard_rock_cavern,other_geology,salt_cavern
+aquifer,16,0,0,0,0,0
+depleted_gas_reservoir,0,27,1,0,1,0
+general_or_unclear,27,13,6,0,4,2
+hard_rock_cavern,0,0,0,1,1,0
+other_geology,3,4,1,0,5,0
+salt_cavern,0,0,1,0,0,12

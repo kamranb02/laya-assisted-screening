@@ -1,0 +1,242 @@
+{
+  "timestamp": "2026-10-23 15:11:50",
+  "checks": {
+    "styles": {
+      "choice_ab": {
+        "probe": {
+          "ok": true,
+          "p_yes": 0.9344
+        },
+        "accuracy": 0.72,
+        "positives_recalled": 1.0,
+        "hard_negatives_rejected": 0.444,
+        "separation": 0.41,
+        "p_std": 0.226,
+        "stuck": false,
+        "failures": [
+          {
+            "title": "Nickel-based catalysts for alkaline water electrolysis",
+            "expected": 0,
+            "p_uhs": 0.632
+          },
+          {
+            "title": "Metal hydride materials for solid-state hydrogen storage",
+            "expected": 0,
+            "p_uhs": 0.522
+          },
+          {
+            "title": "Hydrogen embrittlement of high-strength pipeline steel",
+            "expected": 0,
+            "p_uhs": 0.576
+          },
+          {
+            "title": "Waterflooding relative permeability in carbonate reservoirs",
+            "expected": 0,
+            "p_uhs": 0.555
+          },
+          {
+            "title": "Ammonia as a hydrogen carrier for shipping",
+            "expected": 0,
+            "p_uhs": 0.503
+          },
+          {
+            "title": "Life-cycle assessment of green hydrogen production from offshore wind",
+            "expected": 0,
+            "p_uhs": 0.748
+          },
+          {
+            "title": "Hydrogen permeation through polymer liners of pressure vessels",
+            "expected": 0,
+            "p_uhs": 0.677
+          }
+        ],
+        "probabilities": {
+          "Numerical simulation of hydrogen storage in a depleted gas r": 0.924,
+          "Relative permeability hysteresis of hydrogen-brine systems i": 0.917,
+          "Geomechanical stability of salt caverns for hydrogen storage": 0.941,
+          "Microbial hydrogen consumption during underground hydrogen s": 0.955,
+          "Wettability of caprock minerals under hydrogen and brine": 0.898,
+          "Pore-network modelling of hydrogen injection in porous media": 0.912,
+          "A review of geological hydrogen storage: opportunities and c": 0.957,
+          "Site screening of depleted gas fields for large-scale hydrog": 0.893,
+          "Sensitivity analysis of hydrogen recovery factor in a saline": 0.872,
+          "Hydrogen diffusion and mixing with cushion gas in geological": 0.89,
+          "Nickel-based catalysts for alkaline water electrolysis": 0.632,
+          "Degradation of PEM fuel cell membranes": 0.3,
+          "Metal hydride materials for solid-state hydrogen storage": 0.522,
+          "CO2 storage capacity of saline aquifers": 0.494,
+          "Deliverability of underground natural gas storage fields": 0.487,
+          "Hydrogen embrittlement of high-strength pipeline steel": 0.576,
+          "Techno-economic analysis of hydrogen refuelling stations": 0.451,
+          "Waterflooding relative permeability in carbonate reservoirs": 0.555,
+          "Ammonia as a hydrogen carrier for shipping": 0.503,
+          "Type IV composite tanks for compressed hydrogen storage in v": 0.342,
+          "Machine-learning surrogate for hydrogen plume migration in a": 0.888,
+          "Hydrogen loss pathways during underground hydrogen storage": 0.96,
+          "Life-cycle assessment of green hydrogen production from offs": 0.748,
+          "Hydrogen permeation through polymer liners of pressure vesse": 0.677,
+          "Underground storage of CO2 in basalt formations": 0.309
+        }
+      },
+      "noul": {
+        "probe": {
+          "ok": true,
+          "p_yes": 0.6547
+        },
+        "accuracy": 0.76,
+        "positives_recalled": 0.75,
+        "hard_negatives_rejected": 0.778,
+        "separation": 0.206,
+        "p_std": 0.187,
+        "stuck": false,
+        "failures": [
+          {
+            "title": "Relative permeability hysteresis of hydrogen-brine systems in saline aquifers",
+            "expected": 1,
+            "p_uhs": 0.458
+          },
+          {
+            "title": "Geomechanical stability of salt caverns for hydrogen storage",
+            "expected": 1,
+            "p_uhs": 0.372
+          },
+          {
+            "title": "Sensitivity analysis of hydrogen recovery factor in a saline aquifer",
+            "expected": 1,
+            "p_uhs": 0.42
+          },
+          {
+            "title": "Degradation of PEM fuel cell membranes",
+            "expected": 0,
+            "p_uhs": 0.587
+          },
+          {
+            "title": "Metal hydride materials for solid-state hydrogen storage",
+            "expected": 0,
+            "p_uhs": 0.753
+          },
+          {
+            "title": "Ammonia as a hydrogen carrier for shipping",
+            "expected": 0,
+            "p_uhs": 0.662
+          }
+        ],
+        "probabilities": {
+          "Numerical simulation of hydrogen storage in a depleted gas r": 0.552,
+          "Relative permeability hysteresis of hydrogen-brine systems i": 0.458,
+          "Geomechanical stability of salt caverns for hydrogen storage": 0.372,
+          "Microbial hydrogen consumption during underground hydrogen s": 0.809,
+          "Wettability of caprock minerals under hydrogen and brine": 0.535,
+          "Pore-network modelling of hydrogen injection in porous media": 0.709,
+          "A review of geological hydrogen storage: opportunities and c": 0.607,
+          "Site screening of depleted gas fields for large-scale hydrog": 0.71,
+          "Sensitivity analysis of hydrogen recovery factor in a saline": 0.42,
+          "Hydrogen diffusion and mixing with cushion gas in geological": 0.596,
+          "Nickel-based catalysts for alkaline water electrolysis": 0.411,
+          "Degradation of PEM fuel cell membranes": 0.587,
+          "Metal hydride materials for solid-state hydrogen storage": 0.753,
+          "CO2 storage capacity of saline aquifers": 0.357,
+          "Deliverability of underground natural gas storage fields": 0.341,
+          "Hydrogen embrittlement of high-strength pipeline steel": 0.123,
+          "Techno-economic analysis of hydrogen refuelling stations": 0.286,
+          "Waterflooding relative permeability in carbonate reservoirs": 0.209,
+          "Ammonia as a hydrogen carrier for shipping": 0.662,
+          "Type IV composite tanks for compressed hydrogen storage in v": 0.455,
+          "Machine-learning surrogate for hydrogen plume migration in a": 0.646,
+          "Hydrogen loss pathways during underground hydrogen storage": 0.76,
+          "Life-cycle assessment of green hydrogen production from offs": 0.24,
+          "Hydrogen permeation through polymer liners of pressure vesse": 0.292,
+          "Underground storage of CO2 in basalt formations": 0.374
+        }
+      }
+    },
+    "uhs_sanity": {
+      "configured_style": "choice_ab",
+      "accuracy": 0.72,
+      "pass": false,
+      "note": "configured style is not the best one - consider screening.question_style: noul"
+    },
+    "stability": {
+      "max_abs_diff_batch1_vs_batch8": 0.0014,
+      "decision_flips_batch1_vs_batch8": 0,
+      "pass": true
+    },
+    "context_budget": {
+      "sampled_abstracts": 1000,
+      "median_est_tokens": 439,
+      "p90_est_tokens": 677,
+      "text_budget_tokens": 320,
+      "share_trimmed_%": 83.6,
+      "advice": "many abstracts exceed the text budget: compare `multilingual` (1024 tokens) with `compare`"
+    }
+  },
+  "environment": {
+    "python": "3.13.15",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "cpu_count": 2,
+    "laya": "0.4.14",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "huggingface_hub": "1.33.0",
+    "cuda_available": true,
+    "gpu": "Tesla T4"
+  },
+  "model_load_seconds": 25.0,
+  "checkpoint": {
+    "checkpoint": "english",
+    "model_id": "convaiinnovations/laya",
+    "max_len": 512,
+    "head_max_len": 192,
+    "text_budget_tokens": 320
+  },
+  "recommended_question_style": "noul",
+  "benchmark": [
+    {
+      "batch_size": 1,
+      "questions": "uhs_only",
+      "papers_per_sec": 29.11
+    },
+    {
+      "batch_size": 1,
+      "questions": "all_questions",
+      "papers_per_sec": 10.18
+    },
+    {
+      "batch_size": 4,
+      "questions": "uhs_only",
+      "papers_per_sec": 90.93
+    },
+    {
+      "batch_size": 4,
+      "questions": "all_questions",
+      "papers_per_sec": 11.02
+    },
+    {
+      "batch_size": 8,
+      "questions": "uhs_only",
+      "papers_per_sec": 101.81
+    },
+    {
+      "batch_size": 8,
+      "questions": "all_questions",
+      "papers_per_sec": 10.97
+    },
+    {
+      "batch_size": 16,
+      "questions": "uhs_only",
+      "papers_per_sec": 106.78
+    },
+    {
+      "batch_size": 16,
+      "questions": "all_questions",
+      "papers_per_sec": 10.58
+    }
+  ],
+  "extrapolation": {
+    "corpus_size": 2179,
+    "assumed_stage2_fraction": 0.6,
+    "two_stage_hours": 0.0,
+    "note": "short sanity texts; real abstracts are several times longer. Real timings: output/logs/laya_performance.csv"
+  },
+  "overall_pass": false
+}

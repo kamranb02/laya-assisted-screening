@@ -1,0 +1,16 @@
+﻿check,value
+records_unique,5538.0
+abstract_missing_%,29.0
+abstract_source_openalex_%,68.9
+abstract_source_crossref_%,0.9
+abstract_source_semanticscholar_%,1.5
+doi_missing_%,3.1
+countries_missing_%_included,9.1
+included_screened_on_title_only,758.0
+texts_trimmed_to_context_budget_included,101.0
+laya_inputs_at_max_len,8.0
+storage_low_confidence_included,1155.0
+included_not_stage2_classified,0.0
+human_decisions_applied,400.0
+sanity_auto_excluded_but_score_high,0.0
+distinct_model_tags,1.0

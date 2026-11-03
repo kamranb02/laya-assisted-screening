@@ -1,0 +1,39 @@
+{
+  "scorer": "tfidf",
+  "threshold": 0.27,
+  "recall_target": 0.95,
+  "recall_target_reached": true,
+  "n_labeled": 400,
+  "created_at": "2026-11-01 09:15:13",
+  "model_tag": "laya-0.4.14|typed-decisions|choice_ab|q:96f336ef|len1024",
+  "expected": {
+    "scorer": "tfidf",
+    "threshold": 0.27,
+    "precision": 0.724,
+    "recall": 0.958,
+    "f1": 0.824,
+    "estimated_true_uhs_in_corpus": 1988.795,
+    "estimated_missed_uhs_papers": 84.388,
+    "estimated_false_positives_in_included": 726.381,
+    "precision_ci95": [
+      0.668,
+      0.781
+    ],
+    "recall_ci95": [
+      0.921,
+      0.986
+    ],
+    "f1_ci95": [
+      0.784,
+      0.863
+    ],
+    "estimated_missed_ci95": [
+      28.129,
+      157.716
+    ]
+  },
+  "calibration": {
+    "a": 2.6736507397949523,
+    "b": -2.138837512379259
+  }
+}

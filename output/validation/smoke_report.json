@@ -1,0 +1,174 @@
+{
+  "timestamp": "2026-11-01 09:17:37",
+  "checks": {
+    "styles": {
+      "choice_ab": {
+        "probe": {
+          "ok": true,
+          "p_yes": 0.8152
+        },
+        "accuracy": 0.72,
+        "positives_recalled": 1.0,
+        "hard_negatives_rejected": 0.444,
+        "separation": 0.321,
+        "p_std": 0.171,
+        "stuck": false,
+        "failures": [
+          {
+            "title": "Nickel-based catalysts for alkaline water electrolysis",
+            "expected": 0,
+            "p_uhs": 0.509
+          },
+          {
+            "title": "CO2 storage capacity of saline aquifers",
+            "expected": 0,
+            "p_uhs": 0.532
+          },
+          {
+            "title": "Deliverability of underground natural gas storage fields",
+            "expected": 0,
+            "p_uhs": 0.537
+          },
+          {
+            "title": "Hydrogen embrittlement of high-strength pipeline steel",
+            "expected": 0,
+            "p_uhs": 0.521
+          },
+          {
+            "title": "Waterflooding relative permeability in carbonate reservoirs",
+            "expected": 0,
+            "p_uhs": 0.515
+          },
+          {
+            "title": "Life-cycle assessment of green hydrogen production from offshore wind",
+            "expected": 0,
+            "p_uhs": 0.559
+          },
+          {
+            "title": "Hydrogen permeation through polymer liners of pressure vessels",
+            "expected": 0,
+            "p_uhs": 0.564
+          }
+        ],
+        "probabilities": {
+          "Numerical simulation of hydrogen storage in a depleted gas r": 0.757,
+          "Relative permeability hysteresis of hydrogen-brine systems i": 0.836,
+          "Geomechanical stability of salt caverns for hydrogen storage": 0.82,
+          "Microbial hydrogen consumption during underground hydrogen s": 0.869,
+          "Wettability of caprock minerals under hydrogen and brine": 0.811,
+          "Pore-network modelling of hydrogen injection in porous media": 0.785,
+          "A review of geological hydrogen storage: opportunities and c": 0.85,
+          "Site screening of depleted gas fields for large-scale hydrog": 0.697,
+          "Sensitivity analysis of hydrogen recovery factor in a saline": 0.791,
+          "Hydrogen diffusion and mixing with cushion gas in geological": 0.762,
+          "Nickel-based catalysts for alkaline water electrolysis": 0.509,
+          "Degradation of PEM fuel cell membranes": 0.358,
+          "Metal hydride materials for solid-state hydrogen storage": 0.42,
+          "CO2 storage capacity of saline aquifers": 0.532,
+          "Deliverability of underground natural gas storage fields": 0.537,
+          "Hydrogen embrittlement of high-strength pipeline steel": 0.521,
+          "Techno-economic analysis of hydrogen refuelling stations": 0.395,
+          "Waterflooding relative permeability in carbonate reservoirs": 0.515,
+          "Ammonia as a hydrogen carrier for shipping": 0.476,
+          "Type IV composite tanks for compressed hydrogen storage in v": 0.38,
+          "Machine-learning surrogate for hydrogen plume migration in a": 0.788,
+          "Hydrogen loss pathways during underground hydrogen storage": 0.858,
+          "Life-cycle assessment of green hydrogen production from offs": 0.559,
+          "Hydrogen permeation through polymer liners of pressure vesse": 0.564,
+          "Underground storage of CO2 in basalt formations": 0.492
+        }
+      },
+      "noul": {
+        "probe": {
+          "ok": true,
+          "p_yes": 0.5023
+        },
+        "accuracy": 0.92,
+        "positives_recalled": 1.0,
+        "hard_negatives_rejected": 0.778,
+        "separation": 0.104,
+        "p_std": 0.075,
+        "stuck": false,
+        "failures": [
+          {
+            "title": "Metal hydride materials for solid-state hydrogen storage",
+            "expected": 0,
+            "p_uhs": 0.548
+          },
+          {
+            "title": "Deliverability of underground natural gas storage fields",
+            "expected": 0,
+            "p_uhs": 0.511
+          }
+        ],
+        "probabilities": {
+          "Numerical simulation of hydrogen storage in a depleted gas r": 0.503,
+          "Relative permeability hysteresis of hydrogen-brine systems i": 0.514,
+          "Geomechanical stability of salt caverns for hydrogen storage": 0.538,
+          "Microbial hydrogen consumption during underground hydrogen s": 0.638,
+          "Wettability of caprock minerals under hydrogen and brine": 0.537,
+          "Pore-network modelling of hydrogen injection in porous media": 0.545,
+          "A review of geological hydrogen storage: opportunities and c": 0.523,
+          "Site screening of depleted gas fields for large-scale hydrog": 0.5,
+          "Sensitivity analysis of hydrogen recovery factor in a saline": 0.504,
+          "Hydrogen diffusion and mixing with cushion gas in geological": 0.501,
+          "Nickel-based catalysts for alkaline water electrolysis": 0.48,
+          "Degradation of PEM fuel cell membranes": 0.38,
+          "Metal hydride materials for solid-state hydrogen storage": 0.548,
+          "CO2 storage capacity of saline aquifers": 0.452,
+          "Deliverability of underground natural gas storage fields": 0.511,
+          "Hydrogen embrittlement of high-strength pipeline steel": 0.327,
+          "Techno-economic analysis of hydrogen refuelling stations": 0.426,
+          "Waterflooding relative permeability in carbonate reservoirs": 0.354,
+          "Ammonia as a hydrogen carrier for shipping": 0.471,
+          "Type IV composite tanks for compressed hydrogen storage in v": 0.467,
+          "Machine-learning surrogate for hydrogen plume migration in a": 0.538,
+          "Hydrogen loss pathways during underground hydrogen storage": 0.598,
+          "Life-cycle assessment of green hydrogen production from offs": 0.376,
+          "Hydrogen permeation through polymer liners of pressure vesse": 0.372,
+          "Underground storage of CO2 in basalt formations": 0.466
+        }
+      }
+    },
+    "uhs_sanity": {
+      "configured_style": "choice_ab",
+      "accuracy": 0.72,
+      "pass": false,
+      "note": "configured style is not the best one - consider screening.question_style: noul"
+    },
+    "stability": {
+      "max_abs_diff_batch1_vs_batch8": 0.0006,
+      "decision_flips_batch1_vs_batch8": 0,
+      "pass": true
+    },
+    "context_budget": {
+      "sampled_abstracts": 1000,
+      "median_est_tokens": 450,
+      "p90_est_tokens": 789,
+      "text_budget_tokens": 768,
+      "share_trimmed_%": 11.5,
+      "advice": "ok"
+    }
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "cpu_count": 2,
+    "laya": "0.4.14",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.21.0",
+    "huggingface_hub": "1.33.0",
+    "cuda_available": true,
+    "gpu": "Tesla T4"
+  },
+  "model_load_seconds": 4.3,
+  "checkpoint": {
+    "checkpoint": "typed-decisions",
+    "model_id": "convaiinnovations/laya",
+    "max_len": 1024,
+    "head_max_len": 256,
+    "text_budget_tokens": 768
+  },
+  "recommended_question_style": "noul",
+  "overall_pass": false
+}

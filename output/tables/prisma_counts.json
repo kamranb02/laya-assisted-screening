@@ -1,0 +1,38 @@
+{
+  "query_hits_total_with_overlap": 13971,
+  "unique_records": 5675,
+  "duplicates_removed": 137,
+  "unique_after_dedup": 5538,
+  "auto_excluded": 78,
+  "auto_excluded_reasons": {
+    "type:peer-review": 31,
+    "type:erratum": 19,
+    "no_hydrogen_term": 18,
+    "type:paratext": 8,
+    "retracted": 2
+  },
+  "eligible_for_screening": 5460,
+  "screened_by_laya": 5460,
+  "pending_screening": 0,
+  "model_included": 2448,
+  "model_excluded": 3012,
+  "excluded_by_laya": 2759,
+  "included": 2444,
+  "included_by_model": 2319,
+  "human_included": 125,
+  "human_excluded": 257,
+  "human_added": 0,
+  "human_removed": 4,
+  "included_high_confidence": 1568,
+  "included_borderline": 751,
+  "excluded_borderline": 2665,
+  "included_title_only": 758,
+  "review_queue_size": 3949,
+  "scorer": "tfidf",
+  "threshold": 0.27,
+  "validated": true,
+  "review_band": [
+    0.07,
+    0.47
+  ]
+}

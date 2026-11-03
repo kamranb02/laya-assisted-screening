@@ -1,0 +1,180 @@
+{
+  "n_labeled": 400,
+  "n_relevant": 125,
+  "design": "rules",
+  "strata": [
+    {
+      "stratum": "auto_excluded_no_hydrogen",
+      "population": 18,
+      "labeled": 18,
+      "relevant": 0
+    },
+    {
+      "stratum": "likely",
+      "population": 1318,
+      "labeled": 117,
+      "relevant": 39
+    },
+    {
+      "stratum": "none",
+      "population": 588,
+      "labeled": 61,
+      "relevant": 0
+    },
+    {
+      "stratum": "strong",
+      "population": 1564,
+      "labeled": 86,
+      "relevant": 75
+    },
+    {
+      "stratum": "unlikely",
+      "population": 1990,
+      "labeled": 118,
+      "relevant": 11
+    }
+  ],
+  "model_tag": "laya-0.4.14|typed-decisions|choice_ab|q:96f336ef|len1024",
+  "evaluated_at": "2026-11-01 09:15:10",
+  "recall_target": 0.95,
+  "scorers_cross_validated": {
+    "laya_raw": {
+      "auc_w": 0.897,
+      "recall_target_reachable": 1,
+      "max_recall_any_threshold": 1.0,
+      "threshold_for_recall_target": 0.5,
+      "threshold_max_f1": 0.63,
+      "precision_at_recall_target": 0.533,
+      "recall_at_recall_target": 0.956,
+      "f1_at_recall_target": 0.685,
+      "f1_max": 0.768,
+      "ece_w": 0.242,
+      "brier_w": 0.2
+    },
+    "rules": {
+      "auc_w": 0.887,
+      "recall_target_reachable": 1,
+      "max_recall_any_threshold": 1.0,
+      "threshold_for_recall_target": 0.6,
+      "threshold_max_f1": 0.6,
+      "precision_at_recall_target": 0.626,
+      "recall_at_recall_target": 0.907,
+      "f1_at_recall_target": 0.74,
+      "f1_max": 0.768
+    },
+    "laya_cal": {
+      "auc_w": 0.893,
+      "recall_target_reachable": 1,
+      "max_recall_any_threshold": 1.0,
+      "threshold_for_recall_target": 0.1,
+      "threshold_max_f1": 0.34,
+      "precision_at_recall_target": 0.521,
+      "recall_at_recall_target": 0.956,
+      "f1_at_recall_target": 0.675,
+      "f1_max": 0.77,
+      "ece_w": 0.044,
+      "brier_w": 0.126
+    },
+    "tfidf": {
+      "auc_w": 0.97,
+      "recall_target_reachable": 1,
+      "max_recall_any_threshold": 1.0,
+      "threshold_for_recall_target": 0.27,
+      "threshold_max_f1": 0.41,
+      "precision_at_recall_target": 0.724,
+      "recall_at_recall_target": 0.958,
+      "f1_at_recall_target": 0.824,
+      "f1_max": 0.896,
+      "ece_w": 0.164,
+      "brier_w": 0.096
+    },
+    "stack": {
+      "auc_w": 0.928,
+      "recall_target_reachable": 1,
+      "max_recall_any_threshold": 1.0,
+      "threshold_for_recall_target": 0.17,
+      "threshold_max_f1": 0.37,
+      "precision_at_recall_target": 0.643,
+      "recall_at_recall_target": 0.96,
+      "f1_at_recall_target": 0.77,
+      "f1_max": 0.801,
+      "ece_w": 0.042,
+      "brier_w": 0.101
+    }
+  },
+  "laya_raw_at_config_threshold": {
+    "threshold": 0.55,
+    "precision": 0.609,
+    "recall": 0.941,
+    "specificity": 0.656,
+    "f1": 0.74,
+    "accuracy": 0.76,
+    "tp": 1872.379,
+    "fp": 1200.121,
+    "tn": 2289.083,
+    "fn": 116.416
+  },
+  "operating_point": {
+    "scorer": "tfidf",
+    "threshold": 0.27,
+    "precision": 0.724,
+    "recall": 0.958,
+    "f1": 0.824,
+    "estimated_true_uhs_in_corpus": 1988.795,
+    "estimated_missed_uhs_papers": 84.388,
+    "estimated_false_positives_in_included": 726.381,
+    "precision_ci95": [
+      0.668,
+      0.781
+    ],
+    "recall_ci95": [
+      0.921,
+      0.986
+    ],
+    "f1_ci95": [
+      0.784,
+      0.863
+    ],
+    "estimated_missed_ci95": [
+      28.129,
+      157.716
+    ]
+  },
+  "categorical": {
+    "storage_type": {
+      "n": 125,
+      "laya_accuracy": 0.53,
+      "laya_macro_f1": 0.566,
+      "laya_kappa": 0.427,
+      "laya_coverage": 1.0,
+      "laya_accuracy_where_confident": 0.704,
+      "laya_accuracy_where_low_conf": 0.257,
+      "rules_coverage": 0.52,
+      "rules_accuracy_where_rule_fires": 0.883
+    },
+    "method": {
+      "n": 125,
+      "laya_accuracy": 0.435,
+      "laya_macro_f1": 0.47,
+      "laya_kappa": 0.319,
+      "laya_coverage": 1.0,
+      "laya_accuracy_where_confident": 0.835,
+      "laya_accuracy_where_low_conf": 0.361,
+      "rules_coverage": 0.512,
+      "rules_accuracy_where_rule_fires": 0.672
+    },
+    "scale": {
+      "n": 125,
+      "laya_accuracy": 0.392,
+      "laya_macro_f1": 0.307,
+      "laya_kappa": 0.174,
+      "laya_coverage": 1.0,
+      "laya_accuracy_where_confident": 0.49,
+      "laya_accuracy_where_low_conf": 0.376,
+      "rules_coverage": 0.496,
+      "rules_accuracy_where_rule_fires": 0.486
+    }
+  },
+  "topic_flags": {},
+  "inter_rater": null
+}

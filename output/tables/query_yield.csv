@@ -1,0 +1,23 @@
+﻿query_id,query,api_count,last_run,status,hits,included,unique_included,precision_%
+q01,"""underground hydrogen storage""",1385,2026-10-23 15:13:54,ok (retrieved 1387 vs reported count 1385),1383,1256,0,90.8
+q02,"""geological hydrogen storage"" OR ""geologic hydrogen storage""",116,2026-10-22 11:47:58,ok,116,89,8,76.7
+q03,"""subsurface hydrogen storage""",124,2026-10-22 11:47:59,ok,124,112,9,90.3
+q04,"""underground storage of hydrogen"" OR ""hydrogen underground storage"" OR ""geological storage of hydrogen"" OR ""subsurface storage of hydrogen"" OR ""underground hydrogen""",1574,2026-10-23 15:14:06,ok (retrieved 1578 vs reported count 1574),1574,1391,9,88.4
+q05,"hydrogen AND storage AND (aquifer OR ""saline aquifer"" OR ""saline formation"" OR ""saline aquifers"")",678,2026-10-23 15:14:10,ok (retrieved 680 vs reported count 678),678,539,10,79.5
+q06,"hydrogen AND storage AND (""depleted gas"" OR ""depleted reservoir"" OR ""depleted oil"" OR ""gas reservoir"" OR ""gas field"" OR ""hydrocarbon reservoir"")",880,2026-10-23 15:14:16,ok (retrieved 882 vs reported count 880),880,684,22,77.7
+q07,"hydrogen AND storage AND (""salt cavern"" OR ""salt caverns"" OR ""salt dome"" OR ""rock cavern"" OR ""lined rock cavern"")",732,2026-10-23 15:14:21,ok (retrieved 733 vs reported count 732),732,602,75,82.2
+q08,"hydrogen AND storage AND (""porous media"" OR ""porous medium"" OR ""porous rock"" OR ""porous formation"")",500,2026-10-23 15:14:23,ok (retrieved 501 vs reported count 500),500,353,9,70.6
+q09,"hydrogen AND (methanogenesis OR ""sulfate reduction"" OR ""sulphate reduction"" OR microbial OR microorganisms OR ""sulfate-reducing"") AND (underground OR subsurface OR reservoir OR geological)",952,2026-10-23 15:14:31,ok (retrieved 950 vs reported count 952),950,290,19,30.5
+q10,"hydrogen AND (geochemistry OR geochemical OR ""reactive transport"" OR ""mineral dissolution"") AND (underground OR subsurface OR reservoir OR aquifer) AND storage",384,2026-10-23 15:14:33,ok (retrieved 385 vs reported count 384),384,293,4,76.3
+q11,"hydrogen AND (""relative permeability"" OR ""capillary pressure"" OR ""contact angle"" OR wettability OR ""interfacial tension"") AND (rock OR reservoir OR sandstone OR carbonate OR shale OR basalt OR caprock OR aquifer)",904,2026-10-23 15:14:40,ok,904,367,14,40.6
+q12,"hydrogen AND (""multiphase flow"" OR ""two-phase flow"" OR ""cushion gas"" OR ""gas-water"" OR ""gas-brine"") AND storage",563,2026-10-23 15:14:44,ok,563,430,2,76.4
+q13,"hydrogen AND storage AND (caprock OR ""cap rock"" OR ""well integrity"" OR geomechanical OR ""fault reactivation"" OR ""salt creep"")",535,2026-10-23 15:14:47,ok,535,433,11,80.9
+q14,"hydrogen AND (""underground gas storage"" OR ""natural gas storage"" OR ""gas storage"")",1022,2026-10-23 15:14:54,ok (retrieved 1023 vs reported count 1022),1022,406,57,39.7
+q15,"""cushion gas"" AND hydrogen",346,2026-10-23 15:14:55,ok (retrieved 347 vs reported count 346),346,332,2,96.0
+q16,"hydrogen AND storage AND (""reservoir simulation"" OR ""numerical simulation"" OR ""pore-scale"" OR ""pore network"" OR ""core flooding"" OR ""core-flooding"")",1006,2026-10-23 15:15:03,ok (retrieved 1007 vs reported count 1006),1004,430,44,42.8
+q17,"(hydrogen OR H2) AND storage AND (underground OR subsurface OR geological OR geologic) AND (sensitivity OR uncertainty OR ""surrogate model"" OR ""proxy model"")",408,2026-10-23 15:15:06,ok (retrieved 410 vs reported count 408),408,278,4,68.1
+q18,"(hydrogen OR H2) AND (geostorage OR ""geo-storage"" OR ""geological storage"" OR ""subsurface storage"" OR ""underground storage"")",1108,2026-10-23 15:15:15,ok (retrieved 1109 vs reported count 1108),1108,761,81,68.7
+q19,"hydrogen AND storage AND (""abandoned mine"" OR ""coal seam"" OR basalt OR mafic OR ""hard rock"" OR ""mined cavern"" OR ""unlined rock cavern"")",161,2026-10-22 11:48:21,ok,161,81,5,50.3
+q20,"hydrogen AND (""hydrogen loss"" OR ""loss of hydrogen"" OR ""hydrogen consumption"" OR ""hydrogen leakage"") AND (underground OR subsurface OR reservoir OR aquifer OR cavern)",308,2026-10-23 15:15:16,ok,308,250,8,81.2
+q21,"hydrogen AND (""machine learning"" OR ""deep learning"" OR ""physics-informed"" OR ""neural network"" OR surrogate) AND (underground OR subsurface OR reservoir OR cavern OR aquifer) AND storage",208,2026-10-23 15:15:17,ok,208,130,4,62.5
+q22,"hydrogen AND (blend OR blending OR ""natural gas pipeline"" OR ""town gas"" OR repurposing OR repurposed) AND (""gas storage"" OR ""underground storage"" OR ""storage site"")",83,2026-10-22 11:48:25,ok,83,44,0,53.0

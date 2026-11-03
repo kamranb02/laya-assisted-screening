@@ -1,0 +1,7 @@
+{
+  "seeds": 11,
+  "collected": 10,
+  "included": 10,
+  "collection_recall": 0.909,
+  "pipeline_recall": 0.909
+}

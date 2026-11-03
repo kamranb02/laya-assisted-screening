@@ -1,0 +1,42 @@
+{
+  "pipeline_version": "3.0.0",
+  "created": "2026-11-01T09:16:49.429839",
+  "config_hash": "f7fa371158",
+  "window": [
+    "2020-01-01",
+    "2025-12-31"
+  ],
+  "database_sha256": "ca48bb073a04de947bbd73ca0d876802d54a474255f4ae0e6134846a12479aed",
+  "database_bytes": 36552704,
+  "laya_versions": {
+    "laya": "0.4.14",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.21.0",
+    "huggingface_hub": "1.33.0"
+  },
+  "screen_tag": "laya-0.4.14|typed-decisions|choice_ab|q:96f336ef|len1024",
+  "screen_provenance": {
+    "laya": "0.4.14",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.21.0",
+    "huggingface_hub": "1.33.0",
+    "checkpoint_mode": "typed-decisions",
+    "model_id": "convaiinnovations/laya",
+    "question_style": "choice_ab",
+    "question_hash": "96f336ef",
+    "revision": "7b928d828b7b0e022f929d9bd2e44165aa270148",
+    "max_len_cfg": 1024,
+    "head_max_len_cfg": 0,
+    "state_mode": "smart_trim",
+    "loaded_typed-decisions": {
+      "max_len": 1024,
+      "head_max_len": 256,
+      "device": "cuda"
+    }
+  },
+  "counts": {
+    "papers": 5675,
+    "laya_rows": 5460,
+    "manual_decisions": 400
+  }
+}

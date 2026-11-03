@@ -1,0 +1,271 @@
+2026-10-22 11:18:12 | INFO    | Loading Laya english: repo=convaiinnovations/laya subfolder=None device=cpu threads=2 (laya 0.4.13)
+2026-10-22 11:47:56 | WARNING | No OpenAlex API key (env OPENALEX_API_KEY). Since Feb 2026 a free key is required for real use; without one only a handful of calls work.
+2026-10-22 11:47:56 | INFO    | Publication window: 2020-01-01 .. 2025-12-31
+2026-10-22 11:47:58 | INFO    | [q01] 200 / 1385
+2026-10-22 11:47:58 | ERROR   | [q01] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:47:58 | INFO    | [q02] 116 / 116
+2026-10-22 11:47:59 | INFO    | [q03] 124 / 124
+2026-10-22 11:48:00 | INFO    | [q04] 200 / 1574
+2026-10-22 11:48:00 | ERROR   | [q04] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:01 | INFO    | [q05] 200 / 678
+2026-10-22 11:48:01 | ERROR   | [q05] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:02 | INFO    | [q06] 200 / 880
+2026-10-22 11:48:02 | ERROR   | [q06] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:02 | WARNING | HTTP 429 from https://api.openalex.org/works - retry 1 in 1s
+2026-10-22 11:48:04 | INFO    | [q07] 200 / 732
+2026-10-22 11:48:04 | ERROR   | [q07] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:05 | INFO    | [q08] 200 / 500
+2026-10-22 11:48:05 | ERROR   | [q08] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:06 | INFO    | [q09] 200 / 952
+2026-10-22 11:48:07 | ERROR   | [q09] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:07 | INFO    | [q10] 200 / 384
+2026-10-22 11:48:08 | ERROR   | [q10] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:08 | WARNING | HTTP 429 from https://api.openalex.org/works - retry 1 in 1s
+2026-10-22 11:48:09 | INFO    | [q11] 200 / 904
+2026-10-22 11:48:10 | ERROR   | [q11] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:10 | WARNING | HTTP 429 from https://api.openalex.org/works - retry 1 in 1s
+2026-10-22 11:48:12 | INFO    | [q12] 200 / 563
+2026-10-22 11:48:12 | ERROR   | [q12] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:13 | INFO    | [q13] 200 / 535
+2026-10-22 11:48:13 | ERROR   | [q13] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:14 | INFO    | [q14] 200 / 1022
+2026-10-22 11:48:14 | ERROR   | [q14] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:15 | INFO    | [q15] 200 / 346
+2026-10-22 11:48:15 | ERROR   | [q15] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:16 | INFO    | [q16] 200 / 1006
+2026-10-22 11:48:16 | ERROR   | [q16] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:18 | INFO    | [q17] 200 / 408
+2026-10-22 11:48:18 | ERROR   | [q17] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:19 | INFO    | [q18] 200 / 1108
+2026-10-22 11:48:19 | ERROR   | [q18] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:19 | WARNING | HTTP 429 from https://api.openalex.org/works - retry 1 in 1s
+2026-10-22 11:48:21 | INFO    | [q19] 161 / 161
+2026-10-22 11:48:21 | WARNING | HTTP 429 from https://api.openalex.org/works - retry 1 in 1s
+2026-10-22 11:48:23 | INFO    | [q20] 200 / 308
+2026-10-22 11:48:23 | ERROR   | [q20] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:23 | WARNING | HTTP 429 from https://api.openalex.org/works - retry 1 in 1s
+2026-10-22 11:48:25 | INFO    | [q21] 200 / 208
+2026-10-22 11:48:25 | ERROR   | [q21] HTTP 401: {"error":"API key required for cursor paging","message":"Paging past the first page with cursor= needs a free API key. Get one in a minute at https://openalex.org/settings/api"}
+2026-10-22 11:48:25 | INFO    | [q22] 83 / 83
+2026-10-22 11:48:25 | WARNING | Incomplete queries (re-run `collect` to resume): ['q01', 'q04', 'q05', 'q06', 'q07', 'q08', 'q09', 'q10', 'q11', 'q12', 'q13', 'q14', 'q15', 'q16', 'q17', 'q18', 'q20', 'q21']
+2026-10-22 11:48:28 | INFO    | Dedup: 53 duplicate records flagged
+2026-10-22 11:48:54 | WARNING | HTTP 429 from https://api.crossref.org/works/10.1016/j.ijhydene.2025.05.342 - retry 1 in 2s
+2026-10-22 11:48:59 | WARNING | HTTP 429 from https://api.crossref.org/works/10.1016/j.advwatres.2025.105109 - retry 1 in 2s
+2026-10-22 11:50:26 | INFO    | Crossref: 27 abstracts filled out of 784 checked
+2026-10-22 11:50:29 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 1 in 2s
+2026-10-22 11:50:33 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 1 in 2s
+2026-10-22 11:50:35 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 2 in 4s
+2026-10-22 11:50:40 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 3 in 8s
+2026-10-22 11:50:48 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 4 in 16s
+2026-10-22 11:51:12 | INFO    | Semantic Scholar: 80 abstracts filled out of 757 checked
+2026-10-22 11:51:12 | INFO    | Dedup: 53 duplicate records flagged
+2026-10-22 11:51:34 | INFO    | Eligibility summary: {'eligible': 2232, 'type:erratum': 15, 'no_hydrogen_term': 1, 'retracted': 1}
+2026-10-22 11:52:03 | ERROR   | Run `python run.py sample` first and label the sheet.
+2026-10-22 11:52:10 | INFO    | Figures written: 7
+2026-10-22 11:52:14 | INFO    | Excel workbook: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/excel/UHS_Literature_2020_2025.xlsx
+2026-10-22 11:52:14 | INFO    | Seed recall: {'seeds': 11, 'collected': 10, 'included': 0, 'collection_recall': 0.909, 'pipeline_recall': 0.0}
+2026-10-22 11:52:18 | INFO    | Provenance bundle written to /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/provenance
+2026-10-22 11:52:18 | INFO    | Report: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/report/UHS_Literature_Report.html
+2026-10-22 11:52:18 | INFO    | PRISMA: {"query_hits_total_with_overlap": 4084, "unique_records": 2249, "duplicates_removed": 53, "unique_after_dedup": 2196, "auto_excluded": 17, "eligible_for_screening": 2179, "screened_by_laya": 0, "pending_screening": 2179, "model_included": 0, "model_excluded": 0, "excluded_by_laya": 0, "included": 0, "included_by_model": 0, "human_included": 0, "human_excluded": 0, "human_added": 0, "human_removed": 0, "included_high_confidence": 0, "included_borderline": 0, "excluded_borderline": 0, "included_title_only": 0, "review_queue_size": 0, "scorer": "laya_raw", "threshold": 0.55, "validated": false}
+2026-10-22 11:52:18 | WARNING | The classification is NOT validated yet: run `sample`, label, then `evaluate`.
+2026-10-22 11:53:06 | INFO    | Dedup: 53 duplicate records flagged
+2026-10-22 11:53:26 | INFO    | Eligibility summary: {'eligible': 2232, 'type:erratum': 15, 'no_hydrogen_term': 1, 'retracted': 1}
+2026-10-22 11:53:30 | INFO    | Model tag: laya-0.4.13|english|choice_ab|q:96f336ef|lendefault
+2026-10-22 11:53:30 | INFO    | Pending: stage-1 = 2179 papers, stage-2 = 0 papers so far (re-evaluated after stage 1; only raw P(UHS) >= 0.15)
+2026-10-22 11:53:30 | INFO    | Loading Laya english: repo=convaiinnovations/laya subfolder=None device=cpu threads=2 (laya 0.4.13)
+2026-10-22 12:05:54 | INFO    | Dedup: 53 duplicate records flagged
+2026-10-22 12:06:15 | INFO    | Eligibility summary: {'eligible': 2232, 'type:erratum': 15, 'no_hydrogen_term': 1, 'retracted': 1}
+2026-10-22 12:06:19 | INFO    | Model tag: laya-0.4.13|english|choice_ab|q:96f336ef|lendefault
+2026-10-22 12:06:19 | INFO    | Pending: stage-1 = 1603 papers, stage-2 = 575 papers so far (re-evaluated after stage 1; only raw P(UHS) >= 0.15)
+2026-10-22 12:06:19 | INFO    | Loading Laya english: repo=convaiinnovations/laya subfolder=None device=cpu threads=2 (laya 0.4.13)
+2026-10-22 16:36:17 | INFO    | Dedup: 53 duplicate records flagged
+2026-10-22 16:36:37 | INFO    | Eligibility summary: {'eligible': 2232, 'type:erratum': 15, 'no_hydrogen_term': 1, 'retracted': 1}
+2026-10-22 16:36:41 | INFO    | Model tag: laya-0.4.13|english|choice_ab|q:96f336ef|lendefault
+2026-10-22 16:36:41 | INFO    | Pending: stage-1 = 0 papers, stage-2 = 1330 papers so far (re-evaluated after stage 1; only raw P(UHS) >= 0.15)
+2026-10-22 16:36:41 | INFO    | Loading Laya english: repo=convaiinnovations/laya subfolder=None device=cpu threads=2 (laya 0.4.13)
+2026-10-22 17:00:17 | INFO    | Loading Laya english: repo=convaiinnovations/laya subfolder=None device=cuda threads=2 (laya 0.4.13)
+2026-10-22 17:00:39 | INFO    | SMOKE TEST FAILED  | recommended question_style: noul
+2026-10-22 17:01:22 | INFO    | Dedup: 53 duplicate records flagged
+2026-10-22 17:01:22 | INFO    | Crossref: 0 abstracts filled out of 0 checked
+2026-10-22 17:01:22 | INFO    | Semantic Scholar: 0 abstracts filled out of 0 checked
+2026-10-22 17:01:22 | INFO    | Dedup: 53 duplicate records flagged
+2026-10-22 17:01:42 | INFO    | Eligibility summary: {'eligible': 2232, 'type:erratum': 15, 'no_hydrogen_term': 1, 'retracted': 1}
+2026-10-22 17:01:46 | INFO    | Labeling sheet with 400 papers (design=rules, strata={'unlikely': 122, 'likely': 122, 'strong': 90, 'none': 65, 'auto_excluded_no_hydrogen': 1}) written to /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/validation/gold_labeling_sheet.xlsx
+2026-10-22 17:01:47 | INFO    | Dedup: 53 duplicate records flagged
+2026-10-22 17:02:07 | INFO    | Eligibility summary: {'eligible': 2232, 'type:erratum': 15, 'no_hydrogen_term': 1, 'retracted': 1}
+2026-10-22 17:02:12 | INFO    | Model tag: laya-0.4.13|english|choice_ab|q:96f336ef|lendefault
+2026-10-22 17:02:12 | INFO    | Pending: stage-1 = 0 papers, stage-2 = 1314 papers so far (re-evaluated after stage 1; only raw P(UHS) >= 0.15)
+2026-10-22 17:02:12 | INFO    | Loading Laya english: repo=convaiinnovations/laya subfolder=None device=cuda threads=2 (laya 0.4.13)
+2026-10-22 17:02:13 | ERROR   | [Errno 2] No such file or directory
+2026-10-23 15:11:55 | INFO    | Loading Laya english: repo=convaiinnovations/laya subfolder=None device=cuda threads=2 (laya 0.4.14)
+2026-10-23 15:12:38 | INFO    | SMOKE TEST FAILED  | recommended question_style: noul
+2026-10-23 15:13:45 | INFO    | Publication window: 2020-01-01 .. 2025-12-31
+2026-10-23 15:13:45 | INFO    | [q01] resuming at 200 records
+2026-10-23 15:13:47 | INFO    | [q01] 400 / 1385
+2026-10-23 15:13:48 | INFO    | [q01] 600 / 1385
+2026-10-23 15:13:49 | INFO    | [q01] 800 / 1385
+2026-10-23 15:13:51 | INFO    | [q01] 1000 / 1385
+2026-10-23 15:13:52 | INFO    | [q01] 1200 / 1385
+2026-10-23 15:13:54 | INFO    | [q01] 1387 / 1385
+2026-10-23 15:13:54 | INFO    | [q02] already complete (116 records) - skipped (use --refresh to redo)
+2026-10-23 15:13:54 | INFO    | [q03] already complete (124 records) - skipped (use --refresh to redo)
+2026-10-23 15:13:54 | INFO    | [q04] resuming at 200 records
+2026-10-23 15:13:55 | INFO    | [q04] 400 / 1574
+2026-10-23 15:13:57 | INFO    | [q04] 600 / 1574
+2026-10-23 15:13:58 | INFO    | [q04] 800 / 1574
+2026-10-23 15:14:00 | INFO    | [q04] 1000 / 1574
+2026-10-23 15:14:01 | INFO    | [q04] 1200 / 1574
+2026-10-23 15:14:03 | INFO    | [q04] 1400 / 1574
+2026-10-23 15:14:06 | INFO    | [q04] 1578 / 1574
+2026-10-23 15:14:06 | INFO    | [q05] resuming at 200 records
+2026-10-23 15:14:07 | INFO    | [q05] 400 / 678
+2026-10-23 15:14:09 | INFO    | [q05] 600 / 678
+2026-10-23 15:14:10 | INFO    | [q05] 680 / 678
+2026-10-23 15:14:10 | INFO    | [q06] resuming at 200 records
+2026-10-23 15:14:12 | INFO    | [q06] 400 / 880
+2026-10-23 15:14:13 | INFO    | [q06] 600 / 880
+2026-10-23 15:14:15 | INFO    | [q06] 800 / 880
+2026-10-23 15:14:16 | INFO    | [q06] 882 / 880
+2026-10-23 15:14:16 | INFO    | [q07] resuming at 200 records
+2026-10-23 15:14:18 | INFO    | [q07] 400 / 732
+2026-10-23 15:14:19 | INFO    | [q07] 600 / 732
+2026-10-23 15:14:21 | INFO    | [q07] 733 / 732
+2026-10-23 15:14:21 | INFO    | [q08] resuming at 200 records
+2026-10-23 15:14:22 | INFO    | [q08] 400 / 500
+2026-10-23 15:14:23 | INFO    | [q08] 501 / 500
+2026-10-23 15:14:23 | INFO    | [q09] resuming at 200 records
+2026-10-23 15:14:25 | INFO    | [q09] 400 / 952
+2026-10-23 15:14:27 | INFO    | [q09] 600 / 952
+2026-10-23 15:14:30 | INFO    | [q09] 800 / 952
+2026-10-23 15:14:31 | INFO    | [q09] 950 / 952
+2026-10-23 15:14:31 | INFO    | [q10] resuming at 200 records
+2026-10-23 15:14:33 | INFO    | [q10] 385 / 384
+2026-10-23 15:14:33 | INFO    | [q11] resuming at 200 records
+2026-10-23 15:14:35 | INFO    | [q11] 400 / 904
+2026-10-23 15:14:37 | INFO    | [q11] 600 / 904
+2026-10-23 15:14:39 | INFO    | [q11] 800 / 904
+2026-10-23 15:14:40 | INFO    | [q11] 904 / 904
+2026-10-23 15:14:40 | INFO    | [q12] resuming at 200 records
+2026-10-23 15:14:42 | INFO    | [q12] 400 / 563
+2026-10-23 15:14:44 | INFO    | [q12] 563 / 563
+2026-10-23 15:14:44 | INFO    | [q13] resuming at 200 records
+2026-10-23 15:14:46 | INFO    | [q13] 400 / 535
+2026-10-23 15:14:47 | INFO    | [q13] 535 / 535
+2026-10-23 15:14:47 | INFO    | [q14] resuming at 200 records
+2026-10-23 15:14:48 | INFO    | [q14] 400 / 1022
+2026-10-23 15:14:50 | INFO    | [q14] 600 / 1022
+2026-10-23 15:14:51 | INFO    | [q14] 800 / 1022
+2026-10-23 15:14:53 | INFO    | [q14] 1000 / 1022
+2026-10-23 15:14:54 | INFO    | [q14] 1023 / 1022
+2026-10-23 15:14:54 | INFO    | [q15] resuming at 200 records
+2026-10-23 15:14:55 | INFO    | [q15] 347 / 346
+2026-10-23 15:14:55 | INFO    | [q16] resuming at 200 records
+2026-10-23 15:14:57 | INFO    | [q16] 400 / 1006
+2026-10-23 15:14:59 | INFO    | [q16] 600 / 1006
+2026-10-23 15:15:00 | INFO    | [q16] 800 / 1006
+2026-10-23 15:15:02 | INFO    | [q16] 1000 / 1006
+2026-10-23 15:15:03 | INFO    | [q16] 1007 / 1006
+2026-10-23 15:15:03 | INFO    | [q17] resuming at 200 records
+2026-10-23 15:15:05 | INFO    | [q17] 400 / 408
+2026-10-23 15:15:06 | INFO    | [q17] 410 / 408
+2026-10-23 15:15:06 | INFO    | [q18] resuming at 200 records
+2026-10-23 15:15:08 | INFO    | [q18] 400 / 1108
+2026-10-23 15:15:10 | INFO    | [q18] 600 / 1108
+2026-10-23 15:15:11 | INFO    | [q18] 800 / 1108
+2026-10-23 15:15:13 | INFO    | [q18] 1000 / 1108
+2026-10-23 15:15:15 | INFO    | [q18] 1109 / 1108
+2026-10-23 15:15:15 | INFO    | [q19] already complete (161 records) - skipped (use --refresh to redo)
+2026-10-23 15:15:15 | INFO    | [q20] resuming at 200 records
+2026-10-23 15:15:16 | INFO    | [q20] 308 / 308
+2026-10-23 15:15:16 | INFO    | [q21] resuming at 200 records
+2026-10-23 15:15:17 | INFO    | [q21] 208 / 208
+2026-10-23 15:15:17 | INFO    | [q22] already complete (83 records) - skipped (use --refresh to redo)
+2026-10-23 15:15:20 | INFO    | Dedup: 137 duplicate records flagged
+2026-10-23 15:18:31 | INFO    | Crossref: 29 abstracts filled out of 983 checked
+2026-10-23 15:18:31 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 1 in 2s
+2026-10-23 15:18:33 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 2 in 4s
+2026-10-23 15:18:39 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 1 in 2s
+2026-10-23 15:18:41 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 2 in 4s
+2026-10-23 15:18:45 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 3 in 8s
+2026-10-23 15:18:53 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 4 in 16s
+2026-10-23 15:19:09 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 5 in 32s
+2026-10-23 15:19:41 | WARNING | HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch - retry 6 in 64s
+2026-10-23 15:20:45 | WARNING | Semantic Scholar batch failed (giving up after 6 attempts (HTTP 429)) - skipping the rest of this source
+2026-10-23 15:20:45 | INFO    | Semantic Scholar: 5 abstracts filled out of 954 checked
+2026-10-23 15:20:45 | INFO    | Dedup: 137 duplicate records flagged
+2026-10-23 15:21:50 | INFO    | Eligibility summary: {'eligible': 5590, 'type:erratum': 19, 'no_hydrogen_term': 18, 'retracted': 2, 'type:peer-review': 37, 'type:paratext': 9}
+2026-10-23 15:21:54 | INFO    | Dedup: 137 duplicate records flagged
+2026-10-23 15:22:56 | INFO    | Eligibility summary: {'eligible': 5590, 'type:erratum': 19, 'no_hydrogen_term': 18, 'retracted': 2, 'type:peer-review': 37, 'type:paratext': 9}
+2026-10-23 15:23:00 | ERROR   | The database already holds Laya results produced with a different configuration:
+   in database : ['laya-0.4.13|english|choice_ab|q:96f336ef|lendefault']
+   current     : laya-0.4.14|english|choice_ab|q:96f336ef|lendefault
+Mixing them would make the corpus inconsistent. Revert the config change, or re-run with `python run.py screen --rescreen` (the old results are kept in a backup table).
+2026-10-23 15:23:05 | ERROR   | /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/validation/gold_labeling_sheet.xlsx already exists (your labels!). Use --force to overwrite.
+2026-10-23 15:25:34 | INFO    | Dedup: 137 duplicate records flagged
+2026-10-23 15:26:36 | INFO    | Eligibility summary: {'eligible': 5590, 'type:erratum': 19, 'no_hydrogen_term': 18, 'retracted': 2, 'type:peer-review': 37, 'type:paratext': 9}
+2026-10-23 15:26:40 | WARNING | Old Laya results moved to table laya_backup_20261023_152640; screening everything again.
+2026-10-23 15:26:40 | INFO    | Model tag: laya-0.4.14|english|choice_ab|q:96f336ef|lendefault
+2026-10-23 15:26:40 | INFO    | Pending: stage-1 = 5460 papers, stage-2 = 0 papers so far (re-evaluated after stage 1; only raw P(UHS) >= 0.15)
+2026-10-23 15:26:40 | INFO    | Loading Laya english: repo=convaiinnovations/laya subfolder=None device=cuda threads=2 (laya 0.4.14)
+2026-10-23 15:45:50 | INFO    | Screening finished. Eligible papers still without a Laya result: 0
+2026-10-23 15:45:55 | INFO    | Labeling sheet with 400 papers (design=rules, strata={'unlikely': 118, 'likely': 117, 'strong': 86, 'none': 61, 'auto_excluded_no_hydrogen': 18}) written to /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/validation/gold_labeling_sheet.xlsx
+2026-10-23 15:47:51 | ERROR   | Only 0 labeled rows (0 relevant): label at least ~100 (ideally 400) with both classes present before evaluating.
+2026-10-23 15:48:19 | INFO    | Figures written: 27
+2026-10-23 15:48:48 | INFO    | Excel workbook: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/excel/UHS_Literature_2020_2025.xlsx
+2026-10-23 15:48:50 | INFO    | Seed recall: {'seeds': 11, 'collected': 10, 'included': 10, 'collection_recall': 0.909, 'pipeline_recall': 0.909}
+2026-10-23 15:48:55 | INFO    | Provenance bundle written to /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/provenance
+2026-10-23 15:48:56 | INFO    | Report: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/report/UHS_Literature_Report.html
+2026-10-23 15:48:56 | INFO    | PRISMA: {"query_hits_total_with_overlap": 13971, "unique_records": 5675, "duplicates_removed": 137, "unique_after_dedup": 5538, "auto_excluded": 78, "eligible_for_screening": 5460, "screened_by_laya": 5460, "pending_screening": 0, "model_included": 3306, "model_excluded": 2154, "excluded_by_laya": 2154, "included": 3306, "included_by_model": 3306, "human_included": 0, "human_excluded": 0, "human_added": 0, "human_removed": 0, "included_high_confidence": 2120, "included_borderline": 1186, "excluded_borderline": 1511, "included_title_only": 752, "review_queue_size": 3435, "scorer": "laya_raw", "threshold": 0.55, "validated": false}
+2026-10-23 15:48:56 | WARNING | The classification is NOT validated yet: run `sample`, label, then `evaluate`.
+2026-11-01 08:29:29 | INFO    | Validation: scorer=laya_cal threshold=0.07 precision=0.464 recall=0.965 F1=0.626 | est. missed=70.101 (CI [16.864, 141.556])
+2026-11-01 08:30:36 | INFO    | Figures written: 27
+2026-11-01 08:31:30 | INFO    | Excel workbook: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/excel/UHS_Literature_2020_2025.xlsx
+2026-11-01 08:31:33 | INFO    | Seed recall: {'seeds': 11, 'collected': 10, 'included': 10, 'collection_recall': 0.909, 'pipeline_recall': 0.909}
+2026-11-01 08:31:49 | INFO    | Provenance bundle written to /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/provenance
+2026-11-01 08:31:51 | INFO    | Report: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/report/UHS_Literature_Report.html
+2026-11-01 08:31:51 | INFO    | PRISMA: {"query_hits_total_with_overlap": 13971, "unique_records": 5675, "duplicates_removed": 137, "unique_after_dedup": 5538, "auto_excluded": 78, "eligible_for_screening": 5460, "screened_by_laya": 5460, "pending_screening": 0, "model_included": 4182, "model_excluded": 1278, "excluded_by_laya": 1173, "included": 4030, "included_by_model": 3905, "human_included": 125, "human_excluded": 257, "human_added": 3, "human_removed": 155, "included_high_confidence": 2416, "included_borderline": 1489, "excluded_borderline": 1173, "included_title_only": 935, "review_queue_size": 3531, "scorer": "laya_cal", "threshold": 0.07, "validated": true}
+2026-11-01 08:32:19 | INFO    | Figures written: 27
+2026-11-01 08:32:36 | INFO    | Excel workbook: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/excel/UHS_Literature_2020_2025.xlsx
+2026-11-01 08:32:37 | INFO    | Seed recall: {'seeds': 11, 'collected': 10, 'included': 10, 'collection_recall': 0.909, 'pipeline_recall': 0.909}
+2026-11-01 08:32:41 | INFO    | Provenance bundle written to /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/provenance
+2026-11-01 08:32:41 | INFO    | Report: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/report/UHS_Literature_Report.html
+2026-11-01 08:32:41 | INFO    | PRISMA: {"query_hits_total_with_overlap": 13971, "unique_records": 5675, "duplicates_removed": 137, "unique_after_dedup": 5538, "auto_excluded": 78, "eligible_for_screening": 5460, "screened_by_laya": 5460, "pending_screening": 0, "model_included": 4182, "model_excluded": 1278, "excluded_by_laya": 1173, "included": 4030, "included_by_model": 3905, "human_included": 125, "human_excluded": 257, "human_added": 3, "human_removed": 155, "included_high_confidence": 2416, "included_borderline": 1489, "excluded_borderline": 1173, "included_title_only": 935, "review_queue_size": 3531, "scorer": "laya_cal", "threshold": 0.07, "validated": true}
+2026-11-01 08:40:21 | INFO    | compare: variant english_ab -> {'checkpoint': 'english', 'question_style': 'choice_ab'}
+2026-11-01 08:40:26 | INFO    | Loading Laya english: repo=convaiinnovations/laya subfolder=None device=cuda threads=2 (laya 0.4.14)
+2026-11-01 08:40:54 | INFO    | compare: variant english_noul -> {'checkpoint': 'english', 'question_style': 'noul'}
+2026-11-01 08:40:54 | INFO    | Loading Laya english: repo=convaiinnovations/laya subfolder=None device=cuda threads=2 (laya 0.4.14)
+2026-11-01 08:41:03 | INFO    | compare: variant multilingual_ab -> {'checkpoint': 'multilingual', 'max_len': 1024, 'question_style': 'choice_ab'}
+2026-11-01 08:41:03 | INFO    | Loading Laya multilingual: repo=convaiinnovations/laya subfolder=multilingual device=cuda threads=2 (laya 0.4.14)
+2026-11-01 08:41:23 | INFO    | compare: variant typed_ab -> {'checkpoint': 'typed-decisions', 'question_style': 'choice_ab'}
+2026-11-01 08:41:23 | INFO    | Loading Laya typed-decisions: repo=convaiinnovations/laya subfolder=typed-decisions device=cuda threads=2 (laya 0.4.14)
+2026-11-01 08:41:49 | INFO    | compare: best = typed_ab
+2026-11-01 08:42:06 | INFO    | Dedup: 137 duplicate records flagged
+2026-11-01 08:43:09 | INFO    | Eligibility summary: {'eligible': 5590, 'type:erratum': 19, 'no_hydrogen_term': 18, 'retracted': 2, 'type:peer-review': 37, 'type:paratext': 9}
+2026-11-01 08:43:15 | WARNING | Old Laya results moved to table laya_backup_20261101_084314; screening everything again.
+2026-11-01 08:43:15 | INFO    | Model tag: laya-0.4.14|typed-decisions|choice_ab|q:96f336ef|len1024
+2026-11-01 08:43:15 | INFO    | Pending: stage-1 = 5460 papers, stage-2 = 0 papers so far (re-evaluated after stage 1; only raw P(UHS) >= 0.15)
+2026-11-01 08:43:15 | INFO    | Loading Laya typed-decisions: repo=convaiinnovations/laya subfolder=typed-decisions device=cuda threads=2 (laya 0.4.14)
+2026-11-01 09:13:17 | INFO    | Screening finished. Eligible papers still without a Laya result: 0
+2026-11-01 09:13:37 | INFO    | Validation: scorer=laya_cal threshold=0.10 precision=0.521 recall=0.956 F1=0.675 | est. missed=88.287 (CI [18.186, 173.964])
+2026-11-01 09:14:00 | INFO    | Figures written: 27
+2026-11-01 09:14:16 | INFO    | Excel workbook: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/excel/UHS_Literature_2020_2025.xlsx
+2026-11-01 09:14:17 | INFO    | Seed recall: {'seeds': 11, 'collected': 10, 'included': 10, 'collection_recall': 0.909, 'pipeline_recall': 0.909}
+2026-11-01 09:14:22 | INFO    | Provenance bundle written to /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/provenance
+2026-11-01 09:14:22 | INFO    | Report: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/report/UHS_Literature_Report.html
+2026-11-01 09:14:22 | INFO    | PRISMA: {"query_hits_total_with_overlap": 13971, "unique_records": 5675, "duplicates_removed": 137, "unique_after_dedup": 5538, "auto_excluded": 78, "eligible_for_screening": 5460, "screened_by_laya": 5460, "pending_screening": 0, "model_included": 3669, "model_excluded": 1791, "excluded_by_laya": 1657, "included": 3546, "included_by_model": 3421, "human_included": 125, "human_excluded": 257, "human_added": 5, "human_removed": 128, "included_high_confidence": 2466, "included_borderline": 955, "excluded_borderline": 1657, "included_title_only": 824, "review_queue_size": 3423, "scorer": "laya_cal", "threshold": 0.1, "validated": true}
+2026-11-01 09:15:14 | INFO    | Validation: scorer=tfidf threshold=0.27 precision=0.724 recall=0.958 F1=0.824 | est. missed=84.388 (CI [28.129, 157.716])
+2026-11-01 09:15:37 | INFO    | Figures written: 27
+2026-11-01 09:15:51 | INFO    | Excel workbook: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/excel/UHS_Literature_2020_2025.xlsx
+2026-11-01 09:15:54 | INFO    | Seed recall: {'seeds': 11, 'collected': 10, 'included': 10, 'collection_recall': 0.909, 'pipeline_recall': 0.909}
+2026-11-01 09:15:58 | INFO    | Provenance bundle written to /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/provenance
+2026-11-01 09:15:59 | INFO    | Report: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/report/UHS_Literature_Report.html
+2026-11-01 09:15:59 | INFO    | PRISMA: {"query_hits_total_with_overlap": 13971, "unique_records": 5675, "duplicates_removed": 137, "unique_after_dedup": 5538, "auto_excluded": 78, "eligible_for_screening": 5460, "screened_by_laya": 5460, "pending_screening": 0, "model_included": 2448, "model_excluded": 3012, "excluded_by_laya": 2759, "included": 2444, "included_by_model": 2319, "human_included": 125, "human_excluded": 257, "human_added": 0, "human_removed": 4, "included_high_confidence": 1568, "included_borderline": 751, "excluded_borderline": 2665, "included_title_only": 758, "review_queue_size": 3949, "scorer": "tfidf", "threshold": 0.27, "validated": true}
+2026-11-01 09:16:25 | INFO    | Figures written: 27
+2026-11-01 09:16:39 | INFO    | Excel workbook: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/excel/UHS_Literature_2020_2025.xlsx
+2026-11-01 09:16:42 | INFO    | Seed recall: {'seeds': 11, 'collected': 10, 'included': 10, 'collection_recall': 0.909, 'pipeline_recall': 0.909}
+2026-11-01 09:16:46 | INFO    | Provenance bundle written to /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/provenance
+2026-11-01 09:16:47 | INFO    | Report: /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/report/UHS_Literature_Report.html
+2026-11-01 09:16:47 | INFO    | PRISMA: {"query_hits_total_with_overlap": 13971, "unique_records": 5675, "duplicates_removed": 137, "unique_after_dedup": 5538, "auto_excluded": 78, "eligible_for_screening": 5460, "screened_by_laya": 5460, "pending_screening": 0, "model_included": 2448, "model_excluded": 3012, "excluded_by_laya": 2759, "included": 2444, "included_by_model": 2319, "human_included": 125, "human_excluded": 257, "human_added": 0, "human_removed": 4, "included_high_confidence": 1568, "included_borderline": 751, "excluded_borderline": 2665, "included_title_only": 758, "review_queue_size": 3949, "scorer": "tfidf", "threshold": 0.27, "validated": true}
+2026-11-01 09:16:53 | INFO    | Provenance bundle written to /content/drive/MyDrive/Colab Notebooks/Laya/uhs_litmine/output/provenance
+2026-11-01 09:17:43 | INFO    | Loading Laya typed-decisions: repo=convaiinnovations/laya subfolder=typed-decisions device=cuda threads=2 (laya 0.4.14)
+2026-11-01 09:17:49 | INFO    | SMOKE TEST FAILED  | recommended question_style: noul
