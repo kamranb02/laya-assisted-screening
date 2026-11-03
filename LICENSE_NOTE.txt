@@ -1,0 +1,4 @@
+Respect API terms, rate limits, publisher access controls and copyright. Do not bypass paywalls.
+Metadata come from OpenAlex (CC0), Crossref (open metadata) and Semantic Scholar. Abstracts are publisher-owned:
+keep the database/Excel for research use and do not redistribute abstracts publicly.
+Laya (convaiinnovations/laya) is Apache-2.0 licensed; check the licence of any fine-tuned checkpoint you use.

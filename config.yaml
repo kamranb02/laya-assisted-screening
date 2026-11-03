@@ -1,0 +1,165 @@
+abstract_enrichment:
+  crossref:
+    base_url: https://api.crossref.org/works
+    enabled: true
+    sleep_seconds: 0.1
+  semantic_scholar:
+    api_key_env: S2_API_KEY
+    base_url: https://api.semanticscholar.org/graph/v1/paper/batch
+    batch_size: 100
+    enabled: true
+    sleep_seconds: 1.2
+analysis:
+  dpi: 300
+  formats:
+  - png
+  - svg
+  gap_lift_below: 0.5
+  gap_min_setting_papers: 25
+  gap_threshold: 3
+  top_n: 15
+compare:
+  variants:
+    english_ab:
+      checkpoint: english
+      question_style: choice_ab
+    english_noul:
+      checkpoint: english
+      question_style: noul
+    multilingual_ab:
+      checkpoint: multilingual
+      max_len: 1024
+      question_style: choice_ab
+    typed_ab:
+      checkpoint: typed-decisions
+      question_style: choice_ab
+decision:
+  raw_include_threshold: 0.55
+  review_halfwidth: 0.2
+  title_only_policy: review
+  use_validated_operating_point: true
+live:
+  interval_seconds: 60
+  port: 8765
+openalex:
+  api_key: ''
+  api_key_env: OPENALEX_API_KEY
+  base_url: https://api.openalex.org/works
+  mailto: ''
+  max_results_per_query: 0
+  max_retries: 6
+  per_page: 200
+  search_filter: title_and_abstract.search
+  search_mode: title_abstract
+  sleep_seconds: 0.1
+  stop_on_budget_exhausted: true
+  timeout: 60
+paths:
+  data_dir: data
+  output_dir: output
+project:
+  end_date: '2025-12-31'
+  name: Underground Hydrogen Storage (UHS) - Literature Mining 2025-2026
+  start_date: '2020-01-01'
+queries:
+- id: q01
+  q: '"underground hydrogen storage"'
+- id: q02
+  q: '"geological hydrogen storage" OR "geologic hydrogen storage"'
+- id: q03
+  q: '"subsurface hydrogen storage"'
+- id: q04
+  q: '"underground storage of hydrogen" OR "hydrogen underground storage" OR "geological
+    storage of hydrogen" OR "subsurface storage of hydrogen" OR "underground hydrogen"'
+- id: q05
+  q: hydrogen AND storage AND (aquifer OR "saline aquifer" OR "saline formation" OR
+    "saline aquifers")
+- id: q06
+  q: hydrogen AND storage AND ("depleted gas" OR "depleted reservoir" OR "depleted
+    oil" OR "gas reservoir" OR "gas field" OR "hydrocarbon reservoir")
+- id: q07
+  q: hydrogen AND storage AND ("salt cavern" OR "salt caverns" OR "salt dome" OR "rock
+    cavern" OR "lined rock cavern")
+- id: q08
+  q: hydrogen AND storage AND ("porous media" OR "porous medium" OR "porous rock"
+    OR "porous formation")
+- id: q09
+  q: hydrogen AND (methanogenesis OR "sulfate reduction" OR "sulphate reduction" OR
+    microbial OR microorganisms OR "sulfate-reducing") AND (underground OR subsurface
+    OR reservoir OR geological)
+- id: q10
+  q: hydrogen AND (geochemistry OR geochemical OR "reactive transport" OR "mineral
+    dissolution") AND (underground OR subsurface OR reservoir OR aquifer) AND storage
+- id: q11
+  q: hydrogen AND ("relative permeability" OR "capillary pressure" OR "contact angle"
+    OR wettability OR "interfacial tension") AND (rock OR reservoir OR sandstone OR
+    carbonate OR shale OR basalt OR caprock OR aquifer)
+- id: q12
+  q: hydrogen AND ("multiphase flow" OR "two-phase flow" OR "cushion gas" OR "gas-water"
+    OR "gas-brine") AND storage
+- id: q13
+  q: hydrogen AND storage AND (caprock OR "cap rock" OR "well integrity" OR geomechanical
+    OR "fault reactivation" OR "salt creep")
+- id: q14
+  q: hydrogen AND ("underground gas storage" OR "natural gas storage" OR "gas storage")
+- id: q15
+  q: '"cushion gas" AND hydrogen'
+- id: q16
+  q: hydrogen AND storage AND ("reservoir simulation" OR "numerical simulation" OR
+    "pore-scale" OR "pore network" OR "core flooding" OR "core-flooding")
+- id: q17
+  q: (hydrogen OR H2) AND storage AND (underground OR subsurface OR geological OR
+    geologic) AND (sensitivity OR uncertainty OR "surrogate model" OR "proxy model")
+- id: q18
+  q: (hydrogen OR H2) AND (geostorage OR "geo-storage" OR "geological storage" OR
+    "subsurface storage" OR "underground storage")
+- id: q19
+  q: hydrogen AND storage AND ("abandoned mine" OR "coal seam" OR basalt OR mafic
+    OR "hard rock" OR "mined cavern" OR "unlined rock cavern")
+- id: q20
+  q: hydrogen AND ("hydrogen loss" OR "loss of hydrogen" OR "hydrogen consumption"
+    OR "hydrogen leakage") AND (underground OR subsurface OR reservoir OR aquifer
+    OR cavern)
+- id: q21
+  q: hydrogen AND ("machine learning" OR "deep learning" OR "physics-informed" OR
+    "neural network" OR surrogate) AND (underground OR subsurface OR reservoir OR
+    cavern OR aquifer) AND storage
+- id: q22
+  q: hydrogen AND (blend OR blending OR "natural gas pipeline" OR "town gas" OR repurposing
+    OR repurposed) AND ("gas storage" OR "underground storage" OR "storage site")
+screening:
+  batch_size: 8
+  checkpoint: english
+  device: cuda
+  enabled: true
+  exclude_types:
+  - erratum
+  - paratext
+  - peer-review
+  - retraction
+  head_max_len: 0
+  max_abstract_chars: 6000
+  max_len: 0
+  min_choice_conf: 0.45
+  model_id: convaiinnovations/laya
+  question_style: choice_ab
+  stage2_min_prob: 0.15
+  state_mode: smart_trim
+  threads: 0
+  topic_threshold: 0.5
+validation:
+  allocation:
+    auto_excluded_no_hydrogen: 0.1
+    likely: 0.28
+    none: 0.14
+    strong: 0.2
+    unlikely: 0.28
+  bootstrap_reps: 1000
+  cv_folds: 5
+  design: rules
+  operating_scorer: laya_cal
+  random_seed: 42
+  recall_target: 0.95
+  sample_size: 400
+  second_rater_fraction: 0.25
+  seed_file: validation_inputs/seed_papers.txt

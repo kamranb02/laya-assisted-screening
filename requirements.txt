@@ -1,0 +1,14 @@
+requests>=2.32
+PyYAML>=6.0
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.4
+openpyxl>=3.1
+matplotlib>=3.9
+tqdm>=4.66
+tabulate>=0.9
+huggingface_hub>=0.24
+# Laya is deliberately NOT pinned to ==: a new release / checkpoint only needs `pip install -U laya`, then
+# `python run.py smoke` and `python run.py compare`. The exact version used is stored with every result.
+laya>=0.3.20
