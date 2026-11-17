@@ -1,4 +1,4 @@
-# Laya-Assisted Literature Screening
+# Calibrated Decision Model for Literature Screening in Underground Hydrogen Storage
 
 A reproducible, resumable pipeline that collects the literature on **underground hydrogen storage (UHS)** from
 OpenAlex, screens and classifies it with **Laya** (a non-autoregressive "System-1" decision model) **plus independent
